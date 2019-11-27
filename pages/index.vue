@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">nuxt-fundamentals</h1>
-      <h2 class="subtitle">My gnarly Nuxt.js project</h2>
+      <h2 class="subtitle">Nuxt + Vue School = 🍕</h2>
       <div class="links">
         <nuxt-link
           v-for="post in posts"
