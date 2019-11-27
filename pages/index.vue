@@ -17,17 +17,28 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue";
 export default {
   components: {
     Logo
   },
-   computed: {
-    posts () {
-      return this.$store.state.posts.all
+  head() {
+    return {
+      title: "Home Page 🍕",
+      meta: [
+        { name: "twitter:title", content: "Nuxt Fundamentals by Vue School" },
+        { name: "twitter:description", content: "Nuxt + Vue School = 🍕" },
+        { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },
+        { name: "twitter:card", content: "summary_large_image" }
+      ]
+    };
+  },
+  computed: {
+    posts() {
+      return this.$store.state.posts.all;
     }
   }
-}
+};
 </script>
 
 <style scoped>
