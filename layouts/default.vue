@@ -1,9 +1,19 @@
 <template>
-  <div>
+  <div class="container">
+    <Navbar/>
     <nuxt />
   </div>
 </template>
 
+<script>
+import Navbar from '@/components/NavBar'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 <style>
 .button--green {
   display: inline-block;
