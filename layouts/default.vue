@@ -1,18 +1,23 @@
 <template>
   <div class="container">
-    <Navbar/>
+    <Navbar />
     <nuxt />
   </div>
 </template>
 
 <script>
-import Navbar from '@/components/NavBar'
+import Navbar from "@/components/NavBar";
 
 export default {
   components: {
     Navbar
+  },
+  computed: {
+    posts() {
+      return this.$store.state.posts.all;
+    }
   }
-}
+};
 </script>
 <style>
 .button--green {
