@@ -1,6 +1,11 @@
-# nuxt-fundamentals
+# Nuxt.js Fundamentals
 
-> Nuxt.js fundamentals
+[![](https://vueschool.s3.amazonaws.com/4d844f1712a19f3de8c4fed7558ee654/nuxt-fundamentals.png)](https://vueschool.io/courses/nuxtjs-fundamentals)
+
+> Nuxt.js fundamentals from [Nuxt.js Fundamentals](https://vueschool.io/courses/nuxtjs-fundamentals) course.
+
+## Demo
+> Live [demo](https://quizzical-gates-eb72ea.netlify.com/)
 
 ## Build Setup
 
